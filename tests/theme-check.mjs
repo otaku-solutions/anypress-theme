@@ -50,7 +50,7 @@ const PORT = Number(process.env.PLAYGROUND_PORT || 9410);
 const SHOTS = resolve(process.env.SHOTS || resolve(HERE, 'shots'));
 const SERVE = process.argv.includes('--serve');
 const BLOCKS_DIR = process.env.ANYPRESS_BLOCKS ? resolve(process.env.ANYPRESS_BLOCKS) : null;
-const BLOCKS_ZIP = process.env.ANYPRESS_BLOCKS_ZIP || 'https://github.com/hamchowderr/anypress-blocks/releases/latest/download/anypress-blocks.zip';
+const BLOCKS_ZIP = process.env.ANYPRESS_BLOCKS_ZIP || 'https://github.com/otaku-solutions/anypress-blocks/releases/latest/download/anypress-blocks.zip';
 const ANYPRESS_BLOCKS = ['anypress/popup', 'anypress/carousel', 'anypress/counter', 'anypress/map'];
 
 const failures = [];

@@ -2,7 +2,7 @@
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
 	"meta": {
 		"title": "AnyPress theme: Commons demo",
-		"author": "hamchowderr",
+		"author": "otaku-solutions",
 		"description": "An example website for associations, chambers and churches, built with the AnyPress theme's Commons kit, AnyPress Blocks and Fluent Forms."
 	},
 	"landingPage": "/",
@@ -64,7 +64,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/build.php",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/build.php"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/build.php"
 			},
 			"progress": {
 				"caption": "Writing the Commons pages"
@@ -75,7 +75,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos.json",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos.json"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos.json"
 			},
 			"progress": {
 				"caption": "Writing the Commons pages"
@@ -86,7 +86,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/posts.json",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/posts.json"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/posts.json"
 			},
 			"progress": {
 				"caption": "Writing the Commons pages"
@@ -97,7 +97,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/services.json",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/services.json"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/services.json"
 			},
 			"progress": {
 				"caption": "Writing the Commons pages"
@@ -108,7 +108,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/towns.json",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/towns.json"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/towns.json"
 			},
 			"progress": {
 				"caption": "Writing the Commons pages"
@@ -119,7 +119,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/breakfast-table.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/breakfast-table.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/breakfast-table.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -130,7 +130,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/breakfast.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/breakfast.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/breakfast.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -141,7 +141,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/city-hall.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/city-hall.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/city-hall.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -152,7 +152,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/cleanup.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/cleanup.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/cleanup.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -163,7 +163,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/coffee-shop.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/coffee-shop.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/coffee-shop.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -174,7 +174,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/hero.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/hero.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/hero.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -185,7 +185,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/main-street.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/main-street.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/main-street.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -196,7 +196,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/meeting-room.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/meeting-room.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/meeting-room.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -207,7 +207,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/mentoring.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/mentoring.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/mentoring.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -218,7 +218,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/open.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/open.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/open.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -229,7 +229,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/speaker.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/speaker.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/speaker.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -240,7 +240,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/workshop.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/workshop.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/workshop.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -251,7 +251,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/commons/photos/young.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/commons/photos/young.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/commons/photos/young.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Commons photos"
@@ -262,7 +262,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/lib.php",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/lib.php"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/lib.php"
 			},
 			"progress": {
 				"caption": "Writing the Commons pages"
@@ -273,7 +273,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/trades.php",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/trades.php"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/trades.php"
 			},
 			"progress": {
 				"caption": "Writing the Commons pages"
@@ -295,7 +295,7 @@
 			"path": "/wordpress/wp-content/plugins/anypress-client-data/roles.json",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/waas-provisioning-api/main/templates/anypress-store/roles.json"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-api/main/templates/anypress-store/roles.json"
 			},
 			"progress": {
 				"caption": "Setting up wp-admin"

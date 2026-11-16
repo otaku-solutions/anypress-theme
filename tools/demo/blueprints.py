@@ -29,18 +29,18 @@ import sys
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DEMO = os.path.join(ROOT, "demo")
-RAW = "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/"
+RAW = "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/"
 ZIPS = "https://api.anypress.io/branding/demo-files/"
 THEME_DIR = "/wordpress/wp-content/themes/anypress"
 # Files the build reads; strings.txt and the photo credits are for people and tools, not the demo.
 DATA = {".php", ".json"}
 PHOTOS = {".jpg", ".jpeg", ".png", ".webp"}
 # The store template's site types, read by AnyPress Client.
-ROLES = "https://raw.githubusercontent.com/hamchowderr/waas-provisioning-api/main/templates/anypress-store/roles.json"
+ROLES = "https://raw.githubusercontent.com/otaku-solutions/anypress-api/main/templates/anypress-store/roles.json"
 CLIENT_DATA = "/wordpress/wp-content/plugins/anypress-client-data"
 # FluentCart's free Customer Rights add-on (the EU cancellation form). FluentCart's own add-on downloads can't be read
 # by another site, so shop demos take the copy the store template ships, from raw.githubusercontent.com.
-CUSTOMER_RIGHTS = "https://raw.githubusercontent.com/hamchowderr/waas-provisioning-api/main/templates/anypress-store/plugins/fluent-cart-customer-rights-0.1.3.zip"
+CUSTOMER_RIGHTS = "https://raw.githubusercontent.com/otaku-solutions/anypress-api/main/templates/anypress-store/plugins/fluent-cart-customer-rights-0.1.3.zip"
 
 
 def kit_files(kit):

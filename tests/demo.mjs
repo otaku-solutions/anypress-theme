@@ -21,7 +21,7 @@ const THEME = resolve(process.env.ANYPRESS_THEME || resolve(HERE, '..'));
 const KIT = process.argv.slice(2).find((a) => !a.startsWith('--')) || 'ridge';
 const CHECK = process.argv.includes('--check');
 const BLOCKS_DIR = process.env.ANYPRESS_BLOCKS ? resolve(process.env.ANYPRESS_BLOCKS) : null;
-const BLOCKS_ZIP = process.env.ANYPRESS_BLOCKS_ZIP || 'https://github.com/hamchowderr/anypress-blocks/releases/latest/download/anypress-blocks.zip';
+const BLOCKS_ZIP = process.env.ANYPRESS_BLOCKS_ZIP || 'https://github.com/otaku-solutions/anypress-blocks/releases/latest/download/anypress-blocks.zip';
 const PORT = Number(process.env.PLAYGROUND_PORT || 9411);
 // A shop kit (one with demo/<kit>/shop.json) runs on FluentCart, from wordpress.org.
 const SHOP = existsSync(resolve(THEME, 'demo', KIT.split('/')[0], 'shop.json'));
