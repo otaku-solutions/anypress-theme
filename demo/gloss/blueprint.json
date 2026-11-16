@@ -2,7 +2,7 @@
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
 	"meta": {
 		"title": "AnyPress theme: Gloss demo",
-		"author": "hamchowderr",
+		"author": "otaku-solutions",
 		"description": "An example website for salon and beauty, built with the AnyPress theme's Gloss kit, AnyPress Blocks and Fluent Forms."
 	},
 	"landingPage": "/",
@@ -64,7 +64,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/build.php",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/build.php"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/build.php"
 			},
 			"progress": {
 				"caption": "Writing the Gloss pages"
@@ -75,7 +75,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos.json",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos.json"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos.json"
 			},
 			"progress": {
 				"caption": "Writing the Gloss pages"
@@ -86,7 +86,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/posts.json",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/posts.json"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/posts.json"
 			},
 			"progress": {
 				"caption": "Writing the Gloss pages"
@@ -97,7 +97,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/services.json",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/services.json"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/services.json"
 			},
 			"progress": {
 				"caption": "Writing the Gloss pages"
@@ -108,7 +108,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/towns.json",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/towns.json"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/towns.json"
 			},
 			"progress": {
 				"caption": "Writing the Gloss pages"
@@ -119,7 +119,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/autumn.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/autumn.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/autumn.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -130,7 +130,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/barber.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/barber.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/barber.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -141,7 +141,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/barber2.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/barber2.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/barber2.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -152,7 +152,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/bea.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/bea.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/bea.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -163,7 +163,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/blowdry.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/blowdry.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/blowdry.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -174,7 +174,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/blush.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/blush.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/blush.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -185,7 +185,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/braids.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/braids.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/braids.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -196,7 +196,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/brows.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/brows.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/brows.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -207,7 +207,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/brunette.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/brunette.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/brunette.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -218,7 +218,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/brushes.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/brushes.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/brushes.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -229,7 +229,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/chairs.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/chairs.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/chairs.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -240,7 +240,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/colour.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/colour.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/colour.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -251,7 +251,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/counter.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/counter.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/counter.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -262,7 +262,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/curls.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/curls.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/curls.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -273,7 +273,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/cutting.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/cutting.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/cutting.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -284,7 +284,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/dryer.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/dryer.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/dryer.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -295,7 +295,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/eyes.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/eyes.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/eyes.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -306,7 +306,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/flatlay.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/flatlay.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/flatlay.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -317,7 +317,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/hero.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/hero.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/hero.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -328,7 +328,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/jess.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/jess.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/jess.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -339,7 +339,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/lipstick.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/lipstick.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/lipstick.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -350,7 +350,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/nadia.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/nadia.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/nadia.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -361,7 +361,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/ollie.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/ollie.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/ollie.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -372,7 +372,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/popup.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/popup.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/popup.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -383,7 +383,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/purple.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/purple.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/purple.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -394,7 +394,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/redcurls.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/redcurls.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/redcurls.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -405,7 +405,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/salon.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/salon.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/salon.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -416,7 +416,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/salon2.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/salon2.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/salon2.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -427,7 +427,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/gloss/photos/scissors.jpg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/gloss/photos/scissors.jpg"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/gloss/photos/scissors.jpg"
 			},
 			"progress": {
 				"caption": "Adding the Gloss photos"
@@ -438,7 +438,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/lib.php",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/lib.php"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/lib.php"
 			},
 			"progress": {
 				"caption": "Writing the Gloss pages"
@@ -449,7 +449,7 @@
 			"path": "/wordpress/wp-content/themes/anypress/demo/trades.php",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/trades.php"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/trades.php"
 			},
 			"progress": {
 				"caption": "Writing the Gloss pages"
@@ -471,7 +471,7 @@
 			"path": "/wordpress/wp-content/plugins/anypress-client-data/roles.json",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/hamchowderr/waas-provisioning-api/main/templates/anypress-store/roles.json"
+				"url": "https://raw.githubusercontent.com/otaku-solutions/anypress-api/main/templates/anypress-store/roles.json"
 			},
 			"progress": {
 				"caption": "Setting up wp-admin"

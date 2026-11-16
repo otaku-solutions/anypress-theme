@@ -14,17 +14,17 @@ It includes:
 
 ## Requirements
 
-WordPress 7.1 or later and PHP 8.1 or later. The popup, carousel, counter and map sections need the free [AnyPress Blocks](https://github.com/hamchowderr/anypress-blocks) plugin (0.2.0 or later); forms in the starter pages are placeholders for a forms plugin such as Fluent Forms.
+WordPress 7.1 or later and PHP 8.1 or later. The popup, carousel, counter and map sections need the free [AnyPress Blocks](https://github.com/otaku-solutions/anypress-blocks) plugin (0.2.0 or later); forms in the starter pages are placeholders for a forms plugin such as Fluent Forms.
 
 ## Install
 
-1. Download `anypress.zip` from the [latest release](https://github.com/hamchowderr/anypress-theme/releases/latest).
+1. Download `anypress.zip` from the [latest release](https://github.com/otaku-solutions/anypress-theme/releases/latest).
 2. In WordPress, go to Appearance > Themes > Add New > Upload Theme, choose the zip and activate it.
 
 With WP-CLI:
 
 ```sh
-wp theme install https://github.com/hamchowderr/anypress-theme/releases/latest/download/anypress.zip --activate
+wp theme install https://github.com/otaku-solutions/anypress-theme/releases/latest/download/anypress.zip --activate
 ```
 
 Each release lists the zip's SHA-256 checksum in `SHA256SUMS`.
@@ -77,7 +77,7 @@ npm run demo -- branch           # the Branch (swim school franchise) demo
 Every kit's demo also opens in WordPress Playground in your browser, with nothing to install:
 
 ```
-https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/hamchowderr/anypress-theme/main/demo/<kit>/blueprint.json
+https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/otaku-solutions/anypress-theme/main/demo/<kit>/blueprint.json
 ```
 
 Each `demo/<kit>/blueprint.json` installs the latest theme and AnyPress Blocks releases and Fluent Forms, then builds the demo from `main`, so the links never need a version bump. Every file comes from an address any site can read, so the Blueprints also run on a copy of Playground without a download helper of its own. `python3 tools/demo/blueprints.py` writes them from each demo folder's files; run it after adding or removing a demo file (CI checks they are up to date).

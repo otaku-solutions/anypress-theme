@@ -242,7 +242,7 @@ Placeholder images in assets/images and screenshot.png were made for this theme 
 * Cover heroes with text at the bottom left now line up with the header.
 
 = 0.4.2 =
-* The theme now has its own repository and release zips: https://github.com/hamchowderr/anypress-theme
+* The theme now has its own repository and release zips: https://github.com/otaku-solutions/anypress-theme
 * Adds the theme screenshot shown under Appearance > Themes.
 
 = 0.4.1 =
