@@ -14,9 +14,9 @@
     "demo": "node demo.mjs"
   },
   "dependencies": {
-    "@wordpress/block-library": "12.0.0",
-    "@wordpress/blocks": "17.0.0",
-    "@wp-playground/cli": "3.1.62",
+    "@wordpress/block-library": "12.1.0",
+    "@wordpress/blocks": "17.1.0",
+    "@wp-playground/cli": "3.1.64",
     "global-jsdom": "30.0.0",
     "jsdom": "30.1.3"
   }
