@@ -20,7 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"large"} -->
-<p class="has-secondary-color has-text-color has-large-font-size"><?php esc_html_e( 'Sundays at 9am and 11am, at 12 Chapel Lane. Come as you are: there\'s coffee from 8:30.', 'anypress' ); ?></p>
+<p class="has-secondary-color has-text-color has-large-font-size"><?php esc_html_e( 'Come as you are: there\'s coffee from 8:30, and someone at the door to show you around.', 'anypress' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex"}} -->

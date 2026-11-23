@@ -60,7 +60,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e( '30 days from the day your order arrives. Over the holidays, anything delivered from November 15 can come back until January 15.', 'anypress' ); ?></p>
+<p><?php esc_html_e( '30 days from the day your order arrives. Over the holidays, anything delivered between November 15 and December 15 can come back until January 15. Later deliveries keep the full 30 days.', 'anypress' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"large"} -->
