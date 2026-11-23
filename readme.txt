@@ -3,7 +3,7 @@ Contributors: otakusolutions
 Requires at least: 7.1
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 0.23.2
+Stable tag: 0.24.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,7 +15,7 @@ Every colour, font size, space, radius and shadow is a named token in theme.json
 
 Style variations: six colour palettes (Forest, Plum, Ocean, Charcoal and gold, Rose, Night) and four font pairings (Warm serif, Editorial, Sturdy, Friendly), in Appearance > Editor > Styles. Every palette keeps text at WCAG AA contrast or better in every section style.
 
-Starter pages: home pages for trades and local services, food and drink, and classes and memberships, plus About, Services and Contact pages, a long sales page, an email signup page and a thank-you page. A links page (for the link in a social media bio) is there too. They appear when a new page is created.
+Starter pages: home pages for trades and local services, food and drink, and classes and memberships, plus About, Services and Contact pages, a long sales page, an email signup page and a thank-you page. A links page (for the link in a social media bio) is there too, and pages for requesting a quote, a project inquiry, client onboarding, a home valuation, ordering online, a restaurant menu, a church's plan-your-visit page, booking a consultation, a dental or salon appointment or a class, and cancellation and return policies. They appear when a new page is created.
 
 Kits: seventeen sets designed for one kind of business each. A kit is a style variation, its own sections and a complete home page:
 
@@ -129,6 +129,10 @@ Source: https://github.com/google/fonts/tree/main/ofl/literata
 Placeholder images in assets/images and screenshot.png were made for this theme and are GPLv3 or later.
 
 == Changelog ==
+
+= 0.24.0 =
+* Thirteen new starter pages, from the guides of the Fluent plugins' makers, each a fully designed page with photos, counters, carousels, price lists and the form or calendar as its centrepiece: Request a quote, Project inquiry, Client onboarding, Home valuation (real estate), Order online and Menu (restaurants), Plan your visit (churches), Book a consultation, Book an appointment for a dental practice and for a salon, Classes and booking (studios and gyms), and Cancellation and Return policies.
+* Each form or booking calendar on these pages has its own box: put your form or booking block in it. On AnyPress stores the box becomes a ready-made Fluent Forms form, or FluentBooking's calendar, when the page is saved.
 
 = 0.23.2 =
 * Shop pages on phones: space between the Filter button and the first row of products, and a little more room between product cards.
