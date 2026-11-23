@@ -8,13 +8,13 @@ It includes:
 
 - **17 kits**, each a style variation, its own sections and a complete home page for one kind of business: Ridge (trades and home services), Circuit (electricians), Hearth (food and drink), Still (wellness), Ledger (professional services), Parcel (online shops), Chapter (courses and memberships), Gloss (salons and beauty), Commons (associations, chambers and churches), Rep (gyms), Frame (portfolios), Keystone (real estate), Launch (software), Byline (blogs and magazines), Assay (regulated health products), Branch (franchises and multi-location) and Aisle (clothing shops on FluentCart). All seventeen are full websites: 13 starter pages each (services or programs, service areas or a member directory, reviews, offers, quote or join, FAQ, careers or volunteering, contact and more), a sticky header with a call button, an offer popup, FAQ, carousels, counters and a map.
 - **AnyPress Blocks**: 32 sections any site can use, whatever its kit, in eight inserter groups (Heroes, About, Services and prices, Proof, Calls to action, Contact, Blog, Footers).
-- **Starter pages** offered when you create a page (home pages, About, Services, Contact, sales, signup, thank-you and links pages) and **post outlines** for how-to, list and review posts.
+- **Starter pages** offered when you create a page (home pages, About, Services, Contact, sales, signup, thank-you and links pages, plus quote, project inquiry, client onboarding, home valuation, online order, menu, plan-your-visit, consultation, dental, salon and class booking pages and cancellation and return policies) and **post outlines** for how-to, list and review posts.
 - **Six colour palettes and four font pairings** under Appearance > Editor > Styles. Every palette keeps text at WCAG AA contrast in every section style.
 - Self-hosted, open-licence fonts. Nothing loads from a font CDN.
 
 ## Requirements
 
-WordPress 7.1 or later and PHP 8.1 or later. The popup, carousel, counter and map sections need the free [AnyPress Blocks](https://github.com/otaku-solutions/anypress-blocks) plugin (0.2.0 or later); forms in the starter pages are placeholders for a forms plugin such as Fluent Forms.
+WordPress 7.1 or later and PHP 8.1 or later. The popup, carousel, counter and map sections need the free [AnyPress Blocks](https://github.com/otaku-solutions/anypress-blocks) plugin (0.2.0 or later); forms and booking calendars in the starter pages are boxes for a forms or booking plugin's block, such as Fluent Forms or FluentBooking.
 
 ## Install
 
