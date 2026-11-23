@@ -131,7 +131,7 @@ Placeholder images in assets/images and screenshot.png were made for this theme 
 == Changelog ==
 
 = 0.24.0 =
-* Thirteen new starter pages, from the guides of the Fluent plugins' makers: Request a quote, Project inquiry, Client onboarding, Home valuation (real estate), Order online and Menu (restaurants), Plan your visit (churches), Book a consultation (law offices), Book an appointment for a dental practice and for a salon, Classes and booking (yoga studios), and Cancellation and Return policies.
+* Thirteen new starter pages, from the guides of the Fluent plugins' makers, each a fully designed page with photos, counters, carousels, price lists and the form or calendar as its centrepiece: Request a quote, Project inquiry, Client onboarding, Home valuation (real estate), Order online and Menu (restaurants), Plan your visit (churches), Book a consultation, Book an appointment for a dental practice and for a salon, Classes and booking (studios and gyms), and Cancellation and Return policies.
 * Each form or booking calendar on these pages has its own box: put your form or booking block in it. On AnyPress stores the box becomes a ready-made Fluent Forms form, or FluentBooking's calendar, when the page is saved.
 
 = 0.23.2 =
