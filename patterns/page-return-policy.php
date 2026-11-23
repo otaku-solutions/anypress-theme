@@ -17,7 +17,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"fontSize":"xxx-large","style":{"typography":{"lineHeight":"1.05"}}} -->
-<h1 class="wp-block-heading has-xxx-large-font-size" style="line-height:1.05"><?php esc_html_e( 'Returns are free and easy', 'anypress' ); ?></h1>
+<h1 class="wp-block-heading has-xxx-large-font-size" style="line-height:1.05"><?php esc_html_e( 'Returns Made Easy', 'anypress' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"large"} -->
@@ -38,7 +38,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'To send it back', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'To Send It Back', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -52,7 +52,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'If it\'s faulty or wrong', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'If It\'s Faulty or Wrong', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -66,7 +66,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'To refund you', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'To Refund You', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -97,7 +97,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Three steps', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Three Steps', 'anypress' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -112,7 +112,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Start your return', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Start Your Return', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary"} -->
@@ -130,11 +130,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Pack it up', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Pack It Up', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary"} -->
-<p class="has-secondary-color has-text-color"><?php esc_html_e( 'In the original packaging if you still have it, with the tags on.', 'anypress' ); ?></p>
+<p class="has-secondary-color has-text-color"><?php esc_html_e( 'In the original packaging if you still have it (any sturdy box will do), with the tags on.', 'anypress' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -148,7 +148,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Send it back', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Send It Back', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary"} -->
@@ -202,7 +202,7 @@
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-large"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"anchor":"returns","fontSize":"x-large"} -->
-<h2 id="returns" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'How long do I have?', 'anypress' ); ?></h2>
+<h2 id="returns" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'How Long Do I Have?', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -212,17 +212,17 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"anchor":"condition","fontSize":"x-large"} -->
-<h2 id="condition" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'What condition must items be in?', 'anypress' ); ?></h2>
+<h2 id="condition" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'What Condition Must Items Be In?', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size"><?php esc_html_e( 'Unused and unwashed, with the tags on and in the original packaging, so we can sell them again.', 'anypress' ); ?></p>
+<p class="has-medium-font-size"><?php esc_html_e( 'Unused and unwashed, with the tags on, so we can sell them again. The original packaging helps but isn\'t needed.', 'anypress' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"anchor":"exceptions","fontSize":"x-large"} -->
-<h2 id="exceptions" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'What can\'t be returned?', 'anypress' ); ?></h2>
+<h2 id="exceptions" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'What Can\'t Be Returned?', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -250,7 +250,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"anchor":"shipping","fontSize":"x-large"} -->
-<h2 id="shipping" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Who pays for return shipping?', 'anypress' ); ?></h2>
+<h2 id="shipping" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Who Pays for Return Shipping?', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -260,7 +260,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"anchor":"refunds","fontSize":"x-large"} -->
-<h2 id="refunds" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'When will I get my money?', 'anypress' ); ?></h2>
+<h2 id="refunds" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'When Will I Get My Money?', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -270,7 +270,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"anchor":"exchanges","fontSize":"x-large"} -->
-<h2 id="exchanges" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Can I exchange instead?', 'anypress' ); ?></h2>
+<h2 id="exchanges" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Can I Exchange Instead?', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -280,7 +280,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"anchor":"digital","fontSize":"x-large"} -->
-<h2 id="digital" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Digital products', 'anypress' ); ?></h2>
+<h2 id="digital" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Digital Products', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -300,7 +300,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Bought a gift? Take your time.', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Bought a Gift? Take Your Time.', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -320,7 +320,7 @@
 <section id="contact" class="wp-block-group alignfull is-style-section-dark" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Start a return', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Start a Return', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -331,7 +331,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":"35%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:35%"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"metadata":{"bindings":{"url":{"source":"anypress/site-details","args":{"key":"email_link"}}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="mailto:hello@example.com"><?php esc_html_e( 'Email us', 'anypress' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="mailto:hello@example.com"><?php esc_html_e( 'Email Us', 'anypress' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

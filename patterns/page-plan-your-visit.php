@@ -17,7 +17,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"fontSize":"poster","style":{"typography":{"lineHeight":"0.95"}}} -->
-<h1 class="wp-block-heading has-poster-font-size" style="line-height:0.95"><?php esc_html_e( 'We saved you a seat', 'anypress' ); ?></h1>
+<h1 class="wp-block-heading has-poster-font-size" style="line-height:0.95"><?php esc_html_e( 'We Saved You a Seat', 'anypress' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"large"} -->
@@ -26,11 +26,11 @@
 
 <!-- wp:buttons {"layout":{"type":"flex"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#visit"><?php esc_html_e( 'Plan your visit', 'anypress' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#visit"><?php esc_html_e( 'Plan Your Visit', 'anypress' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#map"><?php esc_html_e( 'Get directions', 'anypress' ); ?></a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#map"><?php esc_html_e( 'Get Directions', 'anypress' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div></div>
@@ -44,7 +44,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Service times', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Service Times', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"anypress/site-details","args":{"key":"hours"}}}},"fontSize":"large","style":{"typography":{"fontWeight":"700"}}} -->
@@ -71,7 +71,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#map"><?php esc_html_e( 'Get directions', 'anypress' ); ?></a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#map"><?php esc_html_e( 'Get Directions', 'anypress' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -82,7 +82,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Free and easy', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Free and Easy', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"large","style":{"typography":{"fontWeight":"700"}}} -->
@@ -103,7 +103,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'What a Sunday looks like', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'What a Sunday Looks Like', 'anypress' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -114,7 +114,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'About an hour', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'About an Hour', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -128,7 +128,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Come as you are', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Come as You Are', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -142,7 +142,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Kids\' groups', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Kids\' Groups', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -156,7 +156,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Stay after', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Stay After', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -180,7 +180,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Your kids will love it here', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Your Kids Will Love It Here', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -212,7 +212,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'A place for teenagers, too', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'A Place for Teenagers, Too', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -221,7 +221,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"metadata":{"bindings":{"url":{"source":"anypress/site-details","args":{"key":"email_link"}}}},"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="mailto:hello@example.com"><?php esc_html_e( 'Ask about youth', 'anypress' ); ?></a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="mailto:hello@example.com"><?php esc_html_e( 'Ask About Youth', 'anypress' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
@@ -264,7 +264,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xxx-large"} -->
-<h2 class="wp-block-heading has-xxx-large-font-size"><?php esc_html_e( 'Tell us you\'re coming', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xxx-large-font-size"><?php esc_html_e( 'Tell Us You\'re Coming', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"large"} -->
@@ -289,11 +289,11 @@
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"className":"is-style-section-card","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small"},"border":{"radius":"var:preset|border-radius|md"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-section-card" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);border-radius:var(--wp--preset--border-radius--md)"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Plan your visit', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Plan Your Visit', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size"><?php esc_html_e( 'One minute. We\'ll text the day before.', 'anypress' ); ?></p>
+<p class="has-secondary-color has-text-color has-small-font-size"><?php esc_html_e( 'A few quick questions. We\'ll text the day before.', 'anypress' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Form: visit"},"className":"anypress-slot","layout":{"type":"default"}} -->
@@ -314,7 +314,7 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Getting here', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Getting Here', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -327,7 +327,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"metadata":{"bindings":{"url":{"source":"anypress/site-details","args":{"key":"phone_link"}}}},"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="tel:5550164"><?php esc_html_e( 'Call the office', 'anypress' ); ?></a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="tel:5550164"><?php esc_html_e( 'Call the Office', 'anypress' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
@@ -338,12 +338,12 @@
 <section class="wp-block-group alignfull is-style-section-tint" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|xx-large","left":"var:preset|spacing|xx-large"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"width":"38%"} -->
 <div class="wp-block-column" style="flex-basis:38%"><!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Questions people ask', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Questions People Ask', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"is-style-section-brand-soft","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small"},"border":{"radius":"var:preset|border-radius|md"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-section-brand-soft" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);border-radius:var(--wp--preset--border-radius--md)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Still unsure?', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Still Unsure?', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

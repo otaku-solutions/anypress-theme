@@ -12,10 +12,33 @@
 # template swaps it for Fluent Forms' or FluentBooking's own block when the page is saved (anypress-starter-forms.php),
 # so keep the names and keys stable: quote, project, onboarding, valuation, order, visit, consultation.
 
+import re
+
 ANCHORS.update({"Quote form": "quote", "Project form": "project", "Onboarding form": "start", "Valuation form": "valuation",
                 "Order form": "order", "Visit form": "visit", "Consultation form": "consult", "Booking": "book",
                 "Breakfast": "breakfast", "Lunch": "lunch", "Cakes": "cakes", "Drinks": "drinks", "Timetable": "timetable",
                 "Cancelling": "cancelling", "No-shows": "no-shows", "Deposits": "deposits", "Returns": "returns", "Refunds": "refunds", "Exchanges": "exchanges", "Map": "map"})
+
+# Headings, buttons and question titles on these pages are in Title Case (the owner's rule for AnyPress UI labels);
+# the kits' own helpers are wrapped here and put back at the end of this file.
+SMALL = set("a an and as at but by for from in into nor of on or per the to vs via with".split())
+def title_case(text):
+    words = re.split(r"(\s+|<[^>]+>)", text)
+    idx = [i for i, w in enumerate(words) if w and not w.isspace() and not w.startswith("<")]
+    for n, i in enumerate(idx):
+        w = words[i]
+        if any(c.isupper() for c in w[1:]) or not w[:1].isalpha() and not w[:1] in "“\"'(":
+            continue
+        core = w.lstrip("“\"'(")
+        lead = w[:len(w) - len(core)]
+        if n not in (0, len(idx) - 1) and core.lower().rstrip(".,:;!?") in SMALL and not (n > 0 and words[idx[n - 1]].endswith((":", ".", "?", "!"))):
+            continue
+        words[i] = lead + "-".join(part[:1].upper() + part[1:] for part in core.split("-"))
+    return "".join(words)
+_h, _btns, _details = h, btns, details
+def h(text, *a, **k): return _h(title_case(text), *a, **k)
+def btns(items, *a, **k): return _btns([(title_case(i[0]),) + tuple(i[1:]) for i in items], *a, **k)
+def details(summary, *a, **k): return _details(title_case(summary), *a, **k)
 
 STARS = "★★★★★"
 
@@ -135,7 +158,7 @@ page("page-quote", "Request a quote page",
  [hero_form("Free, written quotes", "Tell us about the job. Get a fixed price in two days.",
    "A real person reads every request the same day. No call centre, no pushy follow-ups.",
    ["Free, with no obligation", "A fixed price in writing, valid for 30 days", "Licensed, insured and guaranteed"], "4.9 from 380 local reviews",
-   form_card("Request your quote", "Takes about two minutes. Only the starred questions are required.", "quote", "quote form", "Quote form"),
+   form_card("Request your quote", "One question at a time. About two minutes.", "quote", "quote form", "Quote form"),
    "placeholder-wide.svg", "A tradesperson at work in a customer's home"),
   numbers([(25, "", "", 0, "years in business"), (4000, "+", "", 0, "jobs finished"), (4.9, "", "", 1, "average from 380 reviews"), (2, " days", "", 0, "to get your quote")]),
   sec("How quoting works", N([stackg([mono("How it works"), h("Three steps to a price you can trust", 2, "xx-large")], "small"), grid([
@@ -165,7 +188,7 @@ page("page-project-inquiry", "Project inquiry page",
     col(N([mono("Start a project"), h("Let's make something worth keeping.", 1, "poster", None, None, {"lineHeight": "0.95"}),
            p("Tell us what you're building. A short brief lets us come to the first call with ideas, not just questions.", "large", "secondary"),
            grid([stackg([mono(a), p(b, "medium", bind=k)], "x-small") for a, b, k in [("Email", "hello@example.com", "email_linked"), ("Phone", "555 0142", "phone_linked"), ("Studio", "14 Market Street, Springfield", "address"), ("Replies", "Within one working day", None)]], 2, "12rem", "medium")]), "55%"),
-    col(form_card("Project brief", "Five minutes. Rough answers are fine.", "project", "project brief form"))], "xx-large", "wide", "top"), pad=("xx-large", "xx-large", None, None)),
+    col(form_card("Project brief", "One question at a time. Rough answers are fine.", "project", "project brief form"))], "xx-large", "wide", "top"), pad=("xx-large", "xx-large", None, None)),
   sec("Selected work", N([row([h("Selected work", 2, "xx-large"), mono("2023 to now")], valign="bottom"), cols([
     col(stackg([captioned("placeholder-tall.svg", "A project photo: a white spiral staircase", "4/5", "01 — A stair for a city library, 2025"),
                 captioned("placeholder-wide.svg", "A project photo: a bright dining room", "4/3", "03 — A family home on Hill Street, 2024")], "xx-large"), "55%"),
@@ -201,7 +224,7 @@ page("page-client-onboarding", "Client onboarding page",
         ("2", "Your goals", "What a good first year looks like to you."),
         ("3", "Your tools", "The accounts and apps we'll need. No passwords."),
         ("4", "Your kick-off", "Pick a time for an hour together.")]], "large")]), "sticky", None, "medium", {"type": "default"}), "34%"),
-    col(form_card("Your details", "About ten minutes. Answer what you can; we'll fill the gaps together.", "onboarding", "onboarding form"))], "xx-large", "wide", "top"), "section-tint", content="72rem"),
+    col(form_card("Your details", "One question at a time. Skip anything you don't know yet.", "onboarding", "onboarding form"))], "xx-large", "wide", "top"), "section-tint", content="72rem"),
   sec("Have ready", N([stackg([mono("Before you start"), h("Have these to hand", 2, "xx-large")], "small"), grid([
     big_card("01", "Legal name and number", "Your business's registered name, number and address."),
     big_card("02", "Who gets invoices", "A name and email, and a purchase order number if you use them."),
@@ -226,7 +249,7 @@ page("page-home-valuation", "Home valuation page (real estate)",
  [hero_form("Free, without obligation", "What is your home worth today?",
    "A local agent visits, looks at what's sold on your street and gives you a price you can plan with.",
    ["A price in writing within two days", "Based on real sales nearby, not an algorithm", "No obligation to sell with us"], "4.9 from 210 sellers",
-   form_card("Get your free valuation", "Two minutes. We call within one working day to arrange a visit.", "valuation", "valuation form", "Valuation form"),
+   form_card("Get your free valuation", "A few quick questions. We call within one working day.", "valuation", "valuation form", "Valuation form"),
    "placeholder-wide.svg", "A house for sale on a quiet street", 50),
   numbers([(340, "", "", 0, "homes sold since 2019"), (21, " days", "", 0, "on the market, on average"), (98, "%", "", 0, "of asking price achieved"), (4.9, "", "", 1, "average from 210 reviews")], "section-brand"),
   sec("How it works", N([stackg([mono("How a valuation works"), h("A price you can plan with", 2, "xx-large")], "small"), grid([
@@ -254,7 +277,7 @@ page("page-order-pickup", "Order online page (restaurant)",
  [hero_form("Order ahead", "Order online. Skip the queue.",
    "Order by noon for lunch, by 5pm for dinner. We text you the moment it's ready.",
    ["Ready in about 20 minutes", "Pickup or delivery within three miles", "Pay by card or cash when you collect"], "4.8 from 520 reviews",
-   form_card("Your order", "One item per line. We text to confirm the total and the time.", "order", "order form", "Order form"),
+   form_card("Your order", "One step at a time. We text to confirm the total and the time.", "order", "order form", "Order form"),
    "placeholder-wide.svg", "Fresh pastries on the counter, ready to take away", 60),
   sec("Favourites", N([row([stackg([mono("Today's favourites"), h("What people order most", 2, "xx-large")], "small"), p('<a href="/menu/">' + T("See the full menu") + "</a>", "medium", raw=True)], valign="bottom"), grid([
     photo_card("placeholder-square.svg", "A croissant on a plate", "Butter croissant", "Laminated for three days. Baked every hour until noon.", "$4"),
@@ -298,7 +321,7 @@ page("page-menu", "Menu page (restaurant)",
     col(grid([stackg([menu_line(*d, sub=None) for d in a], "medium") for a in [
       [("Espresso", "Single or double", "$3"), ("Flat white", "Or a latte, a little bigger", "$4"), ("Filter coffee", "Refills are free", "$3.50")],
       [("Loose-leaf tea", "Ask for this week's teas", "$3.50"), ("Hot chocolate", "Made with real chocolate", "$4.50"), ("Fresh lemonade", "Still or sparkling", "$4")]]], 2, "14rem", "x-large"))], "xx-large", "wide", "top"), "section-dark"),
-  sec("Dietary", row([p("<strong>v</strong> vegetarian &nbsp;·&nbsp; <strong>vg</strong> vegan &nbsp;·&nbsp; <strong>gf</strong> made without gluten", None, None, None, None, None, True),
+  sec("Dietary", row([p("<strong>v</strong> " + T("vegetarian") + " &nbsp;·&nbsp; <strong>vg</strong> " + T("vegan") + " &nbsp;·&nbsp; <strong>gf</strong> " + T("made without gluten"), None, None, None, None, None, True),
     p("Allergies? Ask us before you order: we'll tell you exactly what's in each dish.", None, "secondary")], "space-between", "medium"), None, ("large", "large", None, None)),
   closing("Order or book", "placeholder-wide.svg", "The café with tables by the window", "Hungry already?", "Order ahead and skip the queue, or book a table for the weekend.", [("Order online", None, "/order/"), ("Book a table", "outline", "/contact/")])])
 
@@ -334,7 +357,7 @@ page("page-plan-your-visit", "Plan your visit page (church)",
   sec("Visit form", cols([
     col(N([mono("Plan your visit", None), h("Tell us you're coming", 2, "xxx-large"), p("We'll meet you at the door, help you check in the kids and save you a seat. There's a small welcome gift too.", "large"),
            ticks(["Someone to meet you, so you're not on your own", "Kids checked in before the service", "No mailing lists unless you ask"], "medium")]), "48%", valign="center"),
-    col(form_card("Plan your visit", "One minute. We'll text the day before.", "visit", "plan-your-visit form"), None, valign="center")], "xx-large", "wide", "center"), "section-brand"),
+    col(form_card("Plan your visit", "A few quick questions. We'll text the day before.", "visit", "plan-your-visit form"), None, valign="center")], "xx-large", "wide", "center"), "section-brand"),
   sec("Map", cols([
     col(mapb("12 Chapel Lane, Springfield", 39.7990, -89.6440, 15, "4/3", "md"), "55%"),
     col(N([h("Getting here", 2, "xx-large"), p("Five minutes from the station. Buses 4 and 12 stop outside.", "medium"), p("Step-free entry, a hearing loop and accessible toilets.", None, "secondary"),
@@ -370,7 +393,7 @@ page("page-book-consultation", "Book a consultation page",
   sec("Consultation form", cols([
     col(N([h("Rather write first?", 2, "xx-large"), p("Send a few lines and we'll reply within one working day with a time, or an answer if it's quick.", "medium", "secondary"),
            p("Keep details for the meeting itself: the form only needs the outline.", "small", "secondary")]), "40%"),
-    col(form_card("Request a consultation", "Two minutes.", "consultation", "consultation request form", "Consultation form"))], "xx-large", "wide", "top")),
+    col(form_card("Request a consultation", "One question at a time. About two minutes.", "consultation", "consultation request form", "Consultation form"))], "xx-large", "wide", "top")),
   faq_split([("Is the consultation really free?", "Yes, the first 30 minutes. If you'd like us to go further, we'll give you a fixed price first."),
              ("Is what I tell you confidential?", "Yes, from the first conversation."),
              ("Can we meet online?", "Yes. Pick online when you book and you'll get a video link."),
@@ -463,8 +486,8 @@ page("page-book-classes", "Classes and booking page",
     photo_card("placeholder-square.svg", "A slow stretching class", "Slow and stretch", "75 minutes · All levels. Long holds and deep rest."),
     photo_card("placeholder-square.svg", "A teacher helping one student", "Private session", "60 minutes · One to one, at a time that suits you.")], 4, "13rem", "large")])),
   sec("Timetable", N([row([h("This week", 2, "xxx-large"), p("All classes 60 minutes unless shown.", None, "secondary")], valign="bottom"), table(["Day", "Morning", "Lunchtime", "Evening"], [
-     ["Monday", "Morning flow, 7am", "Power, 12:15pm", "Power, 6pm"], ["Tuesday", "Slow and stretch, 9am", "", "Morning flow, 7pm"], ["Wednesday", "Morning flow, 7am", "Power, 12:15pm", "Power, 6pm"],
-     ["Thursday", "Power, 7am", "", "Slow and stretch, 7pm"], ["Friday", "Morning flow, 7am", "Power, 12:15pm", ""], ["Saturday", "Morning flow, 9am", "", "Slow and stretch, 5pm"], ["Sunday", "Power, 10am", "", ""]], "stripes")]), "section-tint"),
+     ["Monday", "Morning flow, 7am", "Power, 12:15pm", "Power, 6pm"], ["Tuesday", "Slow and stretch, 9am (75 min)", "", "Morning flow, 7pm"], ["Wednesday", "Morning flow, 7am", "Power, 12:15pm", "Power, 6pm"],
+     ["Thursday", "Power, 7am", "", "Slow and stretch, 7pm (75 min)"], ["Friday", "Morning flow, 7am", "Power, 12:15pm", ""], ["Saturday", "Morning flow, 9am", "", "Slow and stretch, 5pm (75 min)"], ["Sunday", "Power, 10am", "", ""]], "stripes")]), "section-tint"),
   sec("Booking", cols([
     col(grp(N([h("Your first class", 2, "x-large"), ticks(["Come ten minutes early", "Mats, blocks and towels are here", "Tell your teacher about any injuries"]),
                sep(), h("Can't make it?", 3, "medium"), p("Cancel up to 12 hours before and the class goes back on your pass.", None, "secondary")]), "sticky", None, "medium", {"type": "default"}), "34%"),
@@ -514,7 +537,7 @@ page("page-cancellation-policy", "Cancellation policy page",
 page("page-return-policy", "Return and refund policy page (online store)",
  "A return and refund policy for an online store, written as answers to the questions shoppers ask: a photo heading, the four promises at a glance on cards, how to return in three steps with photos, then how long, condition, what can't come back, return shipping, refunds, exchanges and digital products with links to each part beside them, a holiday note, and a card to start a return. Set the numbers to the shop's own, check the law where the shop sells, and link the policy from the footer and checkout.",
  "return policy, refund policy, returns, refunds, exchanges, online store, shipping, policy",
- [policy_hero("Shopping with us", "Returns are free and easy", "Changed your mind? Send it back within 30 days for a full refund. Here's how it works.", "placeholder-wide.svg", "Folded clothes ready to pack"),
+ [policy_hero("Shopping with us", "Returns made easy", "Changed your mind? Send it back within 30 days for a full refund. Here's how it works.", "placeholder-wide.svg", "Folded clothes ready to pack"),
   sec("At a glance", grid([
     big_card("30 days", "To send it back", "From the day your order arrives."),
     big_card("Free", "If it's faulty or wrong", "We send a prepaid label."),
@@ -522,11 +545,11 @@ page("page-return-policy", "Return and refund policy page (online store)",
     big_card("Swap", "Exchanges", "A new size or colour, sent as soon as yours is on its way.", "section-brand-soft")], 4, "12rem", "medium"), "section-tint", ("x-large", "x-large", None, None)),
   sec("How to return", N([stackg([mono("How to return"), h("Three steps", 2, "xx-large")], "small"), grid([
     gstep("01", "placeholder-wide.svg", "Someone choosing an order on a laptop", "Start your return", "Sign in and choose the order, or email us with your order number."),
-    gstep("02", "placeholder-wide.svg", "Clothes folded into a parcel", "Pack it up", "In the original packaging if you still have it, with the tags on."),
+    gstep("02", "placeholder-wide.svg", "Clothes folded into a parcel", "Pack it up", "In the original packaging if you still have it (any sturdy box will do), with the tags on."),
     gstep("03", "placeholder-wide.svg", "A parcel being handed over", "Send it back", "Drop it at any post office. We email you when it arrives.")], 3, "15rem", "x-large")])),
   policy_body([("How long do I have?", "#returns"), ("Condition", "#condition"), ("What can't be returned", "#exceptions"), ("Return shipping", "#shipping"), ("Refunds", "#refunds"), ("Exchanges", "#exchanges"), ("Digital products", "#digital")], [
     clause("How long do I have?", ["30 days from the day your order arrives."], None, "returns"),
-    clause("What condition must items be in?", ["Unused and unwashed, with the tags on and in the original packaging, so we can sell them again."], None, "condition"),
+    clause("What condition must items be in?", ["Unused and unwashed, with the tags on, so we can sell them again. The original packaging helps but isn't needed."], None, "condition"),
     clause("What can't be returned?", ["For hygiene and safety, some things can't come back unless they're faulty:"], ["Underwear, swimwear and earrings", "Personalised or made-to-order items", "Gift cards", "Food and flowers"], "exceptions"),
     clause("Who pays for return shipping?", ["If an item is faulty or we sent the wrong thing, we pay and send a free label. Otherwise return shipping is up to you."], None, "shipping"),
     clause("When will I get my money?", ["We refund to your original payment method within 5 working days of your return reaching us. Your bank may take another 5 to 10 days to show it."], None, "refunds"),
@@ -537,4 +560,5 @@ page("page-return-policy", "Return and refund policy page (online store)",
     col(img("placeholder-wide.svg", "A wrapped gift on a table", "4/3", "md"), "40%")], "xx-large", "wide", "center"), "section-brand-soft"),
   sec("Contact", cols([col(N([h("Start a return", 2, "xx-large"), p("Sign in and choose the order, or email us with your order number. We reply within one working day.", "medium")])),
     col(btns([("Email us", None, "mailto:hello@example.com", "email_link")], "right"), "35%", valign="center")], "x-large", "wide", "center"), "section-dark", ("x-large", "x-large", None, None))])
+h, btns, details = _h, _btns, _details
 print("guide pages ok")

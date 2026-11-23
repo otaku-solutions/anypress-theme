@@ -18,7 +18,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"fontSize":"poster","style":{"typography":{"lineHeight":"0.95"}}} -->
-<h1 class="wp-block-heading has-poster-font-size" style="line-height:0.95"><?php esc_html_e( 'Let\'s make something worth keeping.', 'anypress' ); ?></h1>
+<h1 class="wp-block-heading has-poster-font-size" style="line-height:0.95"><?php esc_html_e( 'Let\'s Make Something Worth Keeping.', 'anypress' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"large"} -->
@@ -71,11 +71,11 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"className":"is-style-section-card","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small"},"border":{"radius":"var:preset|border-radius|md"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-section-card" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);border-radius:var(--wp--preset--border-radius--md)"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Project brief', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Project Brief', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size"><?php esc_html_e( 'Five minutes. Rough answers are fine.', 'anypress' ); ?></p>
+<p class="has-secondary-color has-text-color has-small-font-size"><?php esc_html_e( 'One question at a time. Rough answers are fine.', 'anypress' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Form: project"},"className":"anypress-slot","layout":{"type":"default"}} -->
@@ -91,7 +91,7 @@
 <!-- wp:group {"tagName":"section","metadata":{"name":"Selected work"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"80rem"}} -->
 <section class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group"><!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Selected work', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Selected Work', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontFamily":"monospace","fontSize":"small","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.08em"}}} -->
@@ -133,7 +133,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Four phases, no surprises', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Four Phases, No Surprises', 'anypress' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -200,7 +200,7 @@
 <section class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|xx-large","left":"var:preset|spacing|xx-large"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"width":"38%"} -->
 <div class="wp-block-column" style="flex-basis:38%"><!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Typical projects', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Typical Projects', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"medium"} -->
@@ -228,12 +228,12 @@
 <section class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|xx-large","left":"var:preset|spacing|xx-large"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"width":"38%"} -->
 <div class="wp-block-column" style="flex-basis:38%"><!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Questions people ask', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Questions People Ask', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"is-style-section-brand-soft","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small"},"border":{"radius":"var:preset|border-radius|md"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-section-brand-soft" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);border-radius:var(--wp--preset--border-radius--md)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Prefer a call first?', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Prefer a Call First?', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -242,7 +242,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"metadata":{"bindings":{"url":{"source":"anypress/site-details","args":{"key":"email_link"}}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="mailto:hello@example.com"><?php esc_html_e( 'Email us', 'anypress' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="mailto:hello@example.com"><?php esc_html_e( 'Email Us', 'anypress' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

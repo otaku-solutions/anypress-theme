@@ -19,7 +19,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"fontSize":"xxx-large","style":{"typography":{"lineHeight":"1.05"}}} -->
-<h1 class="wp-block-heading has-xxx-large-font-size" style="line-height:1.05"><?php esc_html_e( 'What is your home worth today?', 'anypress' ); ?></h1>
+<h1 class="wp-block-heading has-xxx-large-font-size" style="line-height:1.05"><?php esc_html_e( 'What Is Your Home Worth Today?', 'anypress' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"large"} -->
@@ -49,11 +49,11 @@
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"metadata":{"name":"Valuation form"},"className":"is-style-section-card","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small"},"border":{"radius":"var:preset|border-radius|md"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-section-card" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);border-radius:var(--wp--preset--border-radius--md)"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Get your free valuation', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Get Your Free Valuation', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size"><?php esc_html_e( 'Two minutes. We call within one working day to arrange a visit.', 'anypress' ); ?></p>
+<p class="has-secondary-color has-text-color has-small-font-size"><?php esc_html_e( 'A few quick questions. We call within one working day.', 'anypress' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Form: valuation"},"className":"anypress-slot","layout":{"type":"default"}} -->
@@ -109,7 +109,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'A price you can plan with', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'A Price You Can Plan With', 'anypress' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -124,7 +124,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Tell us about the home', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Tell Us About the Home', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary"} -->
@@ -142,7 +142,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'We walk round together', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'We Walk Round Together', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary"} -->
@@ -160,7 +160,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Your valuation in writing', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Your Valuation in Writing', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary"} -->
@@ -173,7 +173,7 @@
 <!-- wp:group {"tagName":"section","metadata":{"name":"Recently sold"},"align":"full","className":"is-style-section-tint","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"80rem"}} -->
 <section class="wp-block-group alignfull is-style-section-tint" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group"><!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Sold nearby', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Sold Nearby', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -290,12 +290,12 @@
 <section class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|xx-large","left":"var:preset|spacing|xx-large"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"width":"38%"} -->
 <div class="wp-block-column" style="flex-basis:38%"><!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Questions people ask', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Questions People Ask', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"is-style-section-brand-soft","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small"},"border":{"radius":"var:preset|border-radius|md"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-section-brand-soft" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);border-radius:var(--wp--preset--border-radius--md)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Thinking of selling next year?', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Thinking of Selling Next Year?', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

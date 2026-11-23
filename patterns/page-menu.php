@@ -17,7 +17,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","level":1,"fontSize":"poster","style":{"typography":{"lineHeight":"0.95"}}} -->
-<h1 class="wp-block-heading has-text-align-center has-poster-font-size" style="line-height:0.95"><?php esc_html_e( 'The menu', 'anypress' ); ?></h1>
+<h1 class="wp-block-heading has-text-align-center has-poster-font-size" style="line-height:0.95"><?php esc_html_e( 'The Menu', 'anypress' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"large"} -->
@@ -67,7 +67,7 @@
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Sourdough toast', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Sourdough Toast', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -83,7 +83,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Eggs on rye', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Eggs on Rye', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -99,7 +99,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Almond croissant', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Almond Croissant', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -131,7 +131,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'The full plate', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'The Full Plate', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -165,7 +165,7 @@
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Soup and bread', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Soup and Bread', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -181,7 +181,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Ham and pickles', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Ham and Pickles', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -197,7 +197,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Leek tart', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Leek Tart', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -213,7 +213,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Roast chicken salad', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Roast Chicken Salad', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -229,7 +229,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Mushroom toast', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Mushroom Toast', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -259,7 +259,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xxx-large"} -->
-<h2 class="wp-block-heading has-xxx-large-font-size"><?php esc_html_e( 'Cakes and bakes', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xxx-large-font-size"><?php esc_html_e( 'Cakes and Bakes', 'anypress' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -271,7 +271,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Cinnamon bun', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Cinnamon Bun', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium","style":{"typography":{"fontWeight":"700"}}} -->
@@ -291,7 +291,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Carrot cake', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Carrot Cake', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium","style":{"typography":{"fontWeight":"700"}}} -->
@@ -311,7 +311,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Baked cheesecake', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Baked Cheesecake', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium","style":{"typography":{"fontWeight":"700"}}} -->
@@ -384,7 +384,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Flat white', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Flat White', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -400,7 +400,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Filter coffee', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Filter Coffee', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -418,7 +418,7 @@
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Loose-leaf tea', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Loose-Leaf Tea', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -434,7 +434,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Hot chocolate', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Hot Chocolate', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -450,7 +450,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-menu-leader","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group is-style-menu-leader"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Fresh lemonade', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Fresh Lemonade', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -471,7 +471,7 @@
 <!-- wp:group {"tagName":"section","metadata":{"name":"Dietary"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"80rem"}} -->
 <section class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p><strong>v</strong> vegetarian &nbsp;·&nbsp; <strong>vg</strong> vegan &nbsp;·&nbsp; <strong>gf</strong> made without gluten</p>
+<p><strong>v</strong> <?php esc_html_e( 'vegetarian', 'anypress' ); ?> &nbsp;·&nbsp; <strong>vg</strong> <?php esc_html_e( 'vegan', 'anypress' ); ?> &nbsp;·&nbsp; <strong>gf</strong> <?php esc_html_e( 'made without gluten', 'anypress' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"secondary"} -->
@@ -483,7 +483,7 @@
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/placeholder-wide.svg' ) ); ?>","alt":"The caf\u00e9 with tables by the window","dimRatio":60,"overlayColor":"main","isUserOverlayColor":true,"minHeight":60,"minHeightUnit":"vh","contentPosition":"center center","align":"full","metadata":{"name":"Order or book"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"44rem"}} -->
 <div class="wp-block-cover alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);min-height:60vh"><img class="wp-block-cover__image-background" alt="The café with tables by the window" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/placeholder-wide.svg' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-main-background-color has-background-dim-60 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"textColor":"base","style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained","contentSize":"44rem"}} -->
 <div class="wp-block-group has-base-color has-text-color"><!-- wp:heading {"textAlign":"center","fontSize":"xxx-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-xxx-large-font-size"><?php esc_html_e( 'Hungry already?', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center has-xxx-large-font-size"><?php esc_html_e( 'Hungry Already?', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"large"} -->
@@ -492,11 +492,11 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/order/"><?php esc_html_e( 'Order online', 'anypress' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/order/"><?php esc_html_e( 'Order Online', 'anypress' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php esc_html_e( 'Book a table', 'anypress' ); ?></a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php esc_html_e( 'Book a Table', 'anypress' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div></div>

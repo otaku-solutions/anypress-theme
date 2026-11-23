@@ -17,7 +17,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"fontSize":"xxx-large","style":{"typography":{"lineHeight":"1.05"}}} -->
-<h1 class="wp-block-heading has-xxx-large-font-size" style="line-height:1.05"><?php esc_html_e( 'Cancellations and no-shows', 'anypress' ); ?></h1>
+<h1 class="wp-block-heading has-xxx-large-font-size" style="line-height:1.05"><?php esc_html_e( 'Cancellations and No-Shows', 'anypress' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"large"} -->
@@ -38,7 +38,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Free changes', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Free Changes', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -52,7 +52,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Late cancellation', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Late Cancellation', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -66,7 +66,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'No-show', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'No-Show', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -140,7 +140,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"anchor":"moving","fontSize":"x-large"} -->
-<h2 id="moving" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Moving an appointment', 'anypress' ); ?></h2>
+<h2 id="moving" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Moving an Appointment', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -150,7 +150,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"anchor":"no-shows","fontSize":"x-large"} -->
-<h2 id="no-shows" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'No-shows', 'anypress' ); ?></h2>
+<h2 id="no-shows" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'No-Shows', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -164,7 +164,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"anchor":"deposits","fontSize":"x-large"} -->
-<h2 id="deposits" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Deposits and refunds', 'anypress' ); ?></h2>
+<h2 id="deposits" class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Deposits and Refunds', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -204,7 +204,7 @@
 <section id="contact" class="wp-block-group alignfull is-style-section-brand" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Need to cancel or move?', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Need to Cancel or Move?', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -219,7 +219,7 @@
 <!-- /wp:button -->
 
 <!-- wp:button {"metadata":{"bindings":{"url":{"source":"anypress/site-details","args":{"key":"email_link"}}}},"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="mailto:hello@example.com"><?php esc_html_e( 'Email us', 'anypress' ); ?></a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="mailto:hello@example.com"><?php esc_html_e( 'Email Us', 'anypress' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

@@ -17,7 +17,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"fontSize":"poster","style":{"typography":{"lineHeight":"0.95"}}} -->
-<h1 class="wp-block-heading has-poster-font-size" style="line-height:0.95"><?php esc_html_e( 'Find your class', 'anypress' ); ?></h1>
+<h1 class="wp-block-heading has-poster-font-size" style="line-height:0.95"><?php esc_html_e( 'Find Your Class', 'anypress' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"large"} -->
@@ -26,11 +26,11 @@
 
 <!-- wp:buttons {"layout":{"type":"flex"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#book"><?php esc_html_e( 'Book a free class', 'anypress' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#book"><?php esc_html_e( 'Book a Free Class', 'anypress' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#timetable"><?php esc_html_e( 'See the timetable', 'anypress' ); ?></a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#timetable"><?php esc_html_e( 'See the Timetable', 'anypress' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div></div>
@@ -43,7 +43,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xxx-large"} -->
-<h2 class="wp-block-heading has-xxx-large-font-size"><?php esc_html_e( 'Something for every day', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xxx-large-font-size"><?php esc_html_e( 'Something for Every Day', 'anypress' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -54,7 +54,7 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Morning flow', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Morning Flow', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -82,7 +82,7 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Slow and stretch', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Slow and Stretch', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -96,7 +96,7 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Private session', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Private Session', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -109,7 +109,7 @@
 <!-- wp:group {"tagName":"section","metadata":{"name":"Timetable"},"anchor":"timetable","align":"full","className":"is-style-section-tint","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"80rem"}} -->
 <section id="timetable" class="wp-block-group alignfull is-style-section-tint" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group"><!-- wp:heading {"fontSize":"xxx-large"} -->
-<h2 class="wp-block-heading has-xxx-large-font-size"><?php esc_html_e( 'This week', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xxx-large-font-size"><?php esc_html_e( 'This Week', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary"} -->
@@ -118,7 +118,7 @@
 <!-- /wp:group -->
 
 <!-- wp:table {"hasFixedLayout":false,"className":"is-style-stripes"} -->
-<figure class="wp-block-table is-style-stripes"><table><thead><tr><th><?php esc_html_e( 'Day', 'anypress' ); ?></th><th><?php esc_html_e( 'Morning', 'anypress' ); ?></th><th><?php esc_html_e( 'Lunchtime', 'anypress' ); ?></th><th><?php esc_html_e( 'Evening', 'anypress' ); ?></th></tr></thead><tbody><tr><td><?php esc_html_e( 'Monday', 'anypress' ); ?></td><td><?php esc_html_e( 'Morning flow, 7am', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 12:15pm', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 6pm', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Tuesday', 'anypress' ); ?></td><td><?php esc_html_e( 'Slow and stretch, 9am', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td><td><?php esc_html_e( 'Morning flow, 7pm', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Wednesday', 'anypress' ); ?></td><td><?php esc_html_e( 'Morning flow, 7am', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 12:15pm', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 6pm', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Thursday', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 7am', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td><td><?php esc_html_e( 'Slow and stretch, 7pm', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Friday', 'anypress' ); ?></td><td><?php esc_html_e( 'Morning flow, 7am', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 12:15pm', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Saturday', 'anypress' ); ?></td><td><?php esc_html_e( 'Morning flow, 9am', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td><td><?php esc_html_e( 'Slow and stretch, 5pm', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Sunday', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 10am', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td></tr></tbody></table></figure>
+<figure class="wp-block-table is-style-stripes"><table><thead><tr><th><?php esc_html_e( 'Day', 'anypress' ); ?></th><th><?php esc_html_e( 'Morning', 'anypress' ); ?></th><th><?php esc_html_e( 'Lunchtime', 'anypress' ); ?></th><th><?php esc_html_e( 'Evening', 'anypress' ); ?></th></tr></thead><tbody><tr><td><?php esc_html_e( 'Monday', 'anypress' ); ?></td><td><?php esc_html_e( 'Morning flow, 7am', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 12:15pm', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 6pm', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Tuesday', 'anypress' ); ?></td><td><?php esc_html_e( 'Slow and stretch, 9am (75 min)', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td><td><?php esc_html_e( 'Morning flow, 7pm', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Wednesday', 'anypress' ); ?></td><td><?php esc_html_e( 'Morning flow, 7am', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 12:15pm', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 6pm', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Thursday', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 7am', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td><td><?php esc_html_e( 'Slow and stretch, 7pm (75 min)', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Friday', 'anypress' ); ?></td><td><?php esc_html_e( 'Morning flow, 7am', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 12:15pm', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Saturday', 'anypress' ); ?></td><td><?php esc_html_e( 'Morning flow, 9am', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td><td><?php esc_html_e( 'Slow and stretch, 5pm (75 min)', 'anypress' ); ?></td></tr><tr><td><?php esc_html_e( 'Sunday', 'anypress' ); ?></td><td><?php esc_html_e( 'Power, 10am', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td><td><?php esc_html_e( '', 'anypress' ); ?></td></tr></tbody></table></figure>
 <!-- /wp:table --></section>
 <!-- /wp:group -->
 
@@ -127,7 +127,7 @@
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"width":"34%"} -->
 <div class="wp-block-column" style="flex-basis:34%"><!-- wp:group {"className":"is-style-sticky","style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-sticky"><!-- wp:heading {"fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Your first class', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Your First Class', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"default"}} -->
@@ -149,7 +149,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Can\'t make it?', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Can\'t Make It?', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary"} -->
@@ -161,7 +161,7 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"className":"is-style-section-card","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small"},"border":{"radius":"var:preset|border-radius|md"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-section-card" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);border-radius:var(--wp--preset--border-radius--md)"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Book a class', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Book a Class', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -185,7 +185,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xxx-large"} -->
-<h2 class="wp-block-heading has-xxx-large-font-size"><?php esc_html_e( 'Pay as you go, or save', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xxx-large-font-size"><?php esc_html_e( 'Pay as You Go, or Save', 'anypress' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -196,7 +196,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'First class', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'First Class', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -210,7 +210,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Drop in', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Drop In', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -224,7 +224,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Ten classes', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Ten Classes', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
@@ -238,7 +238,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Unlimited, monthly', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Unlimited, Monthly', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
@@ -255,7 +255,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Who\'s teaching', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Who\'s Teaching', 'anypress' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -322,12 +322,12 @@
 <section class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|xx-large","left":"var:preset|spacing|xx-large"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"width":"38%"} -->
 <div class="wp-block-column" style="flex-basis:38%"><!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Questions people ask', 'anypress' ); ?></h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Questions People Ask', 'anypress' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"is-style-section-brand","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small"},"border":{"radius":"var:preset|border-radius|md"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-section-brand" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);border-radius:var(--wp--preset--border-radius--md)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Not sure where to start?', 'anypress' ); ?></h3>
+<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Not Sure Where to Start?', 'anypress' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -336,7 +336,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"metadata":{"bindings":{"url":{"source":"anypress/site-details","args":{"key":"email_link"}}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="mailto:hello@example.com"><?php esc_html_e( 'Email us', 'anypress' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="mailto:hello@example.com"><?php esc_html_e( 'Email Us', 'anypress' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
