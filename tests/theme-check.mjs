@@ -285,7 +285,8 @@ if (browser) {
             return { clip: getComputedStyle(el).clipPath, timeline: CSS.supports('animation-timeline: view()'), top: Math.round(r.top) };
         });
         !drawn ? fail('draws in: no .wp-block-group.is-style-draw-in on the styled page')
-            : !drawn.timeline ? pass('draws in: this browser has no scroll timelines, so the block simply shows')
+            : !drawn.timeline ? (drawn.clip === 'none' || /^inset\((0(px|%)\s?){1,4}\)$/.test(drawn.clip) ? pass('draws in: this browser has no scroll timelines, so the block simply shows')
+                : fail(`draws in: no scroll timelines, but the block is still clipped (${JSON.stringify(drawn)})`))
             : /^inset\((0(px|%)\s?){1,4}\)$/.test(drawn.clip) ? pass('draws in: fully drawn at the bottom of the page')
             : fail(`draws in: still clipped at the bottom of the page (${JSON.stringify(drawn)})`);
         for (const [name, width] of [['desktop', 1400], ['phone', 390]]) {
