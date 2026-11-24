@@ -11,6 +11,7 @@ palettes = {
  "ocean":   ("Ocean", dict(primary="#0b636b", **{"primary-accent":"#def1f2","primary-alt":"#f4876a","primary-alt-accent":"#3f1508"}, main="#112326", **{"main-accent":"#d4e0e1"}, base="#ffffff", secondary="#48595c", tertiary="#f2f7f7", **{"border-light":"#dbe6e7","border-dark":"#2f4245"})),
  "charcoal-gold": ("Charcoal and gold", dict(primary="#6e5212", **{"primary-accent":"#f5eedc","primary-alt":"#d8b25a","primary-alt-accent":"#2a1f05"}, main="#1c1c1c", **{"main-accent":"#dddad3"}, base="#fbfaf7", secondary="#55524b", tertiary="#f3f1ec", **{"border-light":"#e4e0d6","border-dark":"#3b3934"})),
  "rose":    ("Rose", dict(primary="#a82c55", **{"primary-accent":"#fbe6ec","primary-alt":"#f6cdb2","primary-alt-accent":"#4d2512"}, main="#24161b", **{"main-accent":"#e5dade"}, base="#ffffff", secondary="#5c4a50", tertiary="#fbf5f6", **{"border-light":"#eddfe3","border-dark":"#45333a"})),
+ "sketchbook": ("Sketchbook", dict(primary="#141414", **{"primary-accent":"#fff1d6","primary-alt":"#ffc75a","primary-alt-accent":"#141414"}, main="#141414", **{"main-accent":"#e9e4de"}, base="#ffffff", secondary="#5f5a55", tertiary="#faf8f5", **{"border-light":"#e9e4de","border-dark":"#3a3633"})),
  "night":   ("Night", dict(primary="#8fb3ff", **{"primary-accent":"#1c2740","primary-alt":"#f0b93a","primary-alt-accent":"#2b1f04"}, main="#eceef2", **{"main-accent":"#2a2e37"}, base="#111318", secondary="#a9afbb", tertiary="#1a1d23", **{"border-light":"#2c3039","border-dark":"#c9cdd6"})),
 }
 os.makedirs('styles/colors', exist_ok=True)
@@ -26,6 +27,7 @@ fonts = {
  "editorial":  ("Editorial", "newsreader", "newsreader", "500", "-0.01em"),
  "sturdy":     ("Sturdy", "archivo", "archivo", "800", "-0.02em"),
  "friendly":   ("Friendly", "figtree", "figtree", "700", "-0.01em"),
+ "sketchbook": ("Sketchbook", "hanken-grotesk", "hanken-grotesk", "800", "-0.025em"),
 }
 os.makedirs('styles/typography', exist_ok=True)
 for slug, (title, body, head, weight, ls) in fonts.items():

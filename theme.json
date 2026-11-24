@@ -170,6 +170,11 @@
 					"name": "Lifted dark",
 					"slug": "medium-dark",
 					"shadow": "0 6px 14px rgba(15, 17, 22, 0.18), 0 18px 36px rgba(15, 17, 22, 0.16)"
+				},
+				{
+					"name": "Offset",
+					"slug": "offset",
+					"shadow": "6px 6px 0 var(--wp--preset--color--primary-alt)"
 				}
 			]
 		},
@@ -687,6 +692,47 @@
 							"fontDisplay": "swap",
 							"src": [
 								"file:./assets/fonts/literata-italic.woff2"
+							]
+						}
+					]
+				},
+				{
+					"name": "Hanken Grotesk",
+					"slug": "hanken-grotesk",
+					"fontFamily": "\"Hanken Grotesk\", ui-sans-serif, system-ui, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Hanken Grotesk",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/hankengrotesk.woff2"
+							]
+						},
+						{
+							"fontFamily": "Hanken Grotesk",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/hankengrotesk-italic.woff2"
+							]
+						}
+					]
+				},
+				{
+					"name": "Caveat (handwriting)",
+					"slug": "caveat",
+					"fontFamily": "Caveat, \"Segoe Print\", \"Bradley Hand\", cursive",
+					"fontFace": [
+						{
+							"fontFamily": "Caveat",
+							"fontStyle": "normal",
+							"fontWeight": "400 700",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/caveat.woff2"
 							]
 						}
 					]

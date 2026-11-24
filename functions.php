@@ -119,6 +119,61 @@ function anypress_register_block_styles() {
 			'inline_style' => '.wp-block-accordion.is-style-divided{gap:0}.wp-block-accordion.is-style-divided>.wp-block-accordion-item{border-top:2px solid currentColor;margin:0}.wp-block-accordion.is-style-divided>.wp-block-accordion-item:last-child{border-bottom:2px solid currentColor}.wp-block-accordion.is-style-divided .wp-block-accordion-heading{margin:0;font-size:var(--wp--preset--font-size--large)}.wp-block-accordion.is-style-divided .wp-block-accordion-heading__toggle{padding-block:var(--wp--preset--spacing--small);min-height:2.75rem}.wp-block-accordion.is-style-divided .wp-block-accordion-panel{padding-bottom:var(--wp--preset--spacing--small)}',
 		)
 	);
+
+	// A screenshot in a browser window: a bar with three dots above the image. For showing a website or an app.
+	register_block_style(
+		'core/image',
+		array(
+			'name'         => 'browser-window',
+			'label'        => __( 'Browser window', 'anypress' ),
+			'inline_style' => '.wp-block-image.is-style-browser-window{border:1.5px solid var(--wp--preset--color--main);border-radius:var(--wp--preset--border-radius--md,12px);overflow:hidden;background:var(--wp--preset--color--base)}.wp-block-image.is-style-browser-window::before{content:"";display:block;height:1.9rem;border-bottom:1.5px solid var(--wp--preset--color--main);background-color:var(--wp--preset--color--tertiary);background-image:radial-gradient(circle,var(--wp--preset--color--main) 0 .28rem,transparent .3rem),radial-gradient(circle,var(--wp--preset--color--main) 0 .28rem,transparent .3rem),radial-gradient(circle,var(--wp--preset--color--main) 0 .28rem,transparent .3rem);background-size:.9rem .9rem;background-repeat:no-repeat;background-position:.7rem 50%,1.6rem 50%,2.5rem 50%}.wp-block-image.is-style-browser-window img{display:block;width:100%;border-radius:0}.wp-block-image.is-style-browser-window figcaption{margin:0;padding:.5em 1em}',
+		)
+	);
+
+	// A comparison table: plain rows with a line between each, the first column read as the row's name and the other
+	// columns centred, so ticks and crosses line up.
+	register_block_style(
+		'core/table',
+		array(
+			'name'         => 'comparison',
+			'label'        => __( 'Comparison', 'anypress' ),
+			'inline_style' => '.wp-block-table.is-style-comparison table{border-collapse:collapse;width:100%}.wp-block-table.is-style-comparison :is(th,td){border:0;border-bottom:1px solid var(--wp--preset--color--border-light);padding:.75em 1em;text-align:center;vertical-align:middle}.wp-block-table.is-style-comparison :is(th,td):first-child{text-align:start}.wp-block-table.is-style-comparison thead :is(th,td){border-bottom:2px solid currentColor;font-weight:700}.wp-block-table.is-style-comparison thead{border:0}.wp-block-table.is-style-comparison tfoot{border:0}.wp-block-table.is-style-comparison figcaption{text-align:start}',
+		)
+	);
+
+	// A list with a tick in the brand colour instead of each bullet: what is included, what a plan gives you.
+	register_block_style(
+		'core/list',
+		array(
+			'name'         => 'ticks',
+			'label'        => __( 'Ticks', 'anypress' ),
+			'inline_style' => '.wp-block-list.is-style-ticks{list-style:none;padding-inline-start:0}.wp-block-list.is-style-ticks>li{position:relative;padding-inline-start:1.8em}.wp-block-list.is-style-ticks>li::before{content:"";position:absolute;inset-inline-start:0;top:.2em;width:1.15em;height:1.15em;background:var(--wp--preset--color--primary);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\'%3E%3Cpath d=\'M4 12.5l5 5L20 6.5\' fill=\'none\' stroke=\'black\' stroke-width=\'3\' stroke-linecap=\'round\' stroke-linejoin=\'round\'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\'%3E%3Cpath d=\'M4 12.5l5 5L20 6.5\' fill=\'none\' stroke=\'black\' stroke-width=\'3\' stroke-linecap=\'round\' stroke-linejoin=\'round\'/%3E%3C/svg%3E") center/contain no-repeat}',
+		)
+	);
+
+	// A short note in handwriting, like a scribble in the margin: above a heading, beside a price.
+	register_block_style(
+		'core/paragraph',
+		array(
+			'name'         => 'handwritten',
+			'label'        => __( 'Handwritten note', 'anypress' ),
+			'inline_style' => 'p.is-style-handwritten{font-family:var(--wp--preset--font-family--caveat);font-size:var(--wp--preset--font-size--large);font-weight:700;line-height:1.1;letter-spacing:0}',
+		)
+	);
+
+	// Draws in as it scrolls into view: the image or section is uncovered from left to right. Pure CSS (scroll-driven
+	// animation), no script; browsers without it, and visitors who prefer less motion, see it finished.
+	$anypress_draw_in = '@media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){.is-style-draw-in{animation:anypress-draw-in linear both;animation-timeline:view();animation-range:entry 5% cover 40%}}}@keyframes anypress-draw-in{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}';
+	foreach ( array( 'core/image', 'core/group' ) as $anypress_block ) {
+		register_block_style(
+			$anypress_block,
+			array(
+				'name'         => 'draw-in',
+				'label'        => __( 'Draws in on scroll', 'anypress' ),
+				'inline_style' => $anypress_draw_in,
+			)
+		);
+	}
 }
 add_action( 'init', 'anypress_register_block_styles' );
 

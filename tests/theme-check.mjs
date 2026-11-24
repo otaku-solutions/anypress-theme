@@ -191,6 +191,24 @@ const html = await (await fetch(`${base}/?page_id=${page.id}`)).text();
 /Fatal error|Warning:|Notice:|Deprecated:/.test(html) ? fail('PHP error on the rendered page') : pass('page renders without PHP errors');
 /is-style-section-[a-z-]+[^{]*\{[^}]*background-color/.test(html) ? pass('section style CSS generated for the sections used') : fail('section style CSS missing');
 html.includes('fonts/figtree.woff2') ? pass('self-hosted fonts load') : fail('font files not referenced');
+const styled = await php(`
+    $reg = WP_Block_Styles_Registry::get_instance();
+    $want = ['core/image' => ['browser-window', 'draw-in'], 'core/group' => ['draw-in'], 'core/table' => ['comparison'], 'core/list' => ['ticks'], 'core/paragraph' => ['handwritten']];
+    $missing = [];
+    foreach ($want as $block => $names) foreach ($names as $n) if (!$reg->is_registered($block, $n)) $missing[] = "$block/$n";
+    $content = '<!-- wp:image {"className":"is-style-browser-window"} --><figure class="wp-block-image is-style-browser-window"><img src="/wp-content/themes/anypress/screenshot.png" alt=""/></figure><!-- /wp:image -->'
+        . '<!-- wp:table {"className":"is-style-comparison"} --><figure class="wp-block-table is-style-comparison"><table><thead><tr><th></th><th>Us</th></tr></thead><tbody><tr><td>Backups</td><td>✓</td></tr></tbody></table></figure><!-- /wp:table -->'
+        . '<!-- wp:list {"className":"is-style-ticks"} --><ul class="wp-block-list is-style-ticks"><!-- wp:list-item --><li>Backups</li><!-- /wp:list-item --></ul><!-- /wp:list -->'
+        . '<!-- wp:paragraph {"className":"is-style-handwritten"} --><p class="is-style-handwritten">most start here</p><!-- /wp:paragraph -->'
+        . '<!-- wp:group {"className":"is-style-draw-in","layout":{"type":"constrained"}} --><div class="wp-block-group is-style-draw-in"><!-- wp:paragraph --><p>Drawn</p><!-- /wp:paragraph --></div><!-- /wp:group -->';
+    $id = wp_insert_post(['post_type' => 'page', 'post_status' => 'publish', 'post_title' => 'Block styles', 'post_name' => 'block-styles-check', 'post_content' => $content]);
+    echo json_encode(['id' => $id, 'missing' => $missing]);`);
+styled.missing.length ? fail(`block styles not registered: ${styled.missing.join(', ')}`) : pass('block styles registered: browser window, comparison, ticks, handwritten note, draws in');
+const styledHtml = await (await fetch(`${base}/?page_id=${styled.id}`)).text();
+['is-style-browser-window::before', 'is-style-comparison :is(th,td)', 'is-style-ticks>li::before', 'p.is-style-handwritten{font-family:var(--wp--preset--font-family--caveat)', 'animation-timeline:view()', 'prefers-reduced-motion:no-preference']
+    .every((css) => styledHtml.includes(css)) ? pass('a page using the block styles gets their CSS') : fail('block style CSS missing from a page that uses them');
+styledHtml.includes('fonts/caveat.woff2') && /--wp--preset--shadow--offset:\s*6px 6px 0 var\(--wp--preset--color--primary-alt\)/.test(styledHtml)
+    ? pass('Caveat font and the Offset shadow preset are in the stylesheet') : fail('Caveat font or Offset shadow missing');
 const blank = await php(`
     $id = wp_insert_post(['post_type' => 'page', 'post_status' => 'publish', 'post_title' => 'Blank', 'post_name' => 'blank-check', 'post_content' => '<!-- wp:paragraph --><p>Only this</p><!-- /wp:paragraph -->']);
     update_post_meta($id, '_wp_page_template', 'page-blank');

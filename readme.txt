@@ -3,7 +3,7 @@ Contributors: otakusolutions
 Requires at least: 7.1
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 0.24.0
+Stable tag: 0.25.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,7 +13,7 @@ A block theme built to be edited by people and by AI agents.
 
 Every colour, font size, space, radius and shadow is a named token in theme.json, so a page changes with the site's palette and fonts instead of keeping old values. Sections take their colours from section styles (Tint, Brand soft, Brand, Dark, Second brand, Card). Every pattern says what it is for, which helps both the pattern inserter and AI agents pick the right one.
 
-Style variations: six colour palettes (Forest, Plum, Ocean, Charcoal and gold, Rose, Night) and four font pairings (Warm serif, Editorial, Sturdy, Friendly), in Appearance > Editor > Styles. Every palette keeps text at WCAG AA contrast or better in every section style.
+Style variations: seven colour palettes (Forest, Plum, Ocean, Charcoal and gold, Rose, Sketchbook, Night) and five font pairings (Warm serif, Editorial, Sturdy, Friendly, Sketchbook), in Appearance > Editor > Styles. Every palette keeps text at WCAG AA contrast or better in every section style.
 
 Starter pages: home pages for trades and local services, food and drink, and classes and memberships, plus About, Services and Contact pages, a long sales page, an email signup page and a thank-you page. A links page (for the link in a social media bio) is there too, and pages for requesting a quote, a project inquiry, client onboarding, a home valuation, ordering online, a restaurant menu, a church's plan-your-visit page, booking a consultation, a dental or salon appointment or a class, and cancellation and return policies. They appear when a new page is created.
 
@@ -126,9 +126,22 @@ Literata, Copyright 2017 The Literata Project Authors (https://github.com/google
 License: SIL Open Font License, 1.1 (assets/fonts/licenses/literata-OFL.txt)
 Source: https://github.com/google/fonts/tree/main/ofl/literata
 
+Hanken Grotesk, Copyright 2021 The Hanken Grotesk Project Authors (https://github.com/marcologous/hanken-grotesk)
+License: SIL Open Font License, 1.1 (assets/fonts/licenses/hankengrotesk-OFL.txt)
+Source: https://github.com/google/fonts/tree/main/ofl/hankengrotesk
+
+Caveat, Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)
+License: SIL Open Font License, 1.1 (assets/fonts/licenses/caveat-OFL.txt)
+Source: https://github.com/google/fonts/tree/main/ofl/caveat
+
 Placeholder images in assets/images and screenshot.png were made for this theme and are GPLv3 or later.
 
 == Changelog ==
+
+= 0.25.0 =
+* New: Sketchbook colour palette (ink on white with a honey highlight) and Sketchbook font pairing (Hanken Grotesk).
+* New block styles: Browser window for images (a screenshot framed as a website), Comparison for tables (rows with a line between, columns centred for ticks), Ticks for lists, Handwritten note for paragraphs (Caveat), and Draws in on scroll for images and groups (pure CSS, still for visitors who prefer less motion).
+* New: Offset shadow, a solid shadow in the palette's second brand colour, in the shadow picker.
 
 = 0.24.0 =
 * Thirteen new starter pages, from the guides of the Fluent plugins' makers, each a fully designed page with photos, counters, carousels, price lists and the form or calendar as its centrepiece: Request a quote, Project inquiry, Client onboarding, Home valuation (real estate), Order online and Menu (restaurants), Plan your visit (churches), Book a consultation, Book an appointment for a dental practice and for a salon, Classes and booking (studios and gyms), and Cancellation and Return policies.

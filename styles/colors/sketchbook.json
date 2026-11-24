@@ -1,0 +1,67 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Sketchbook",
+	"slug": "sketchbook",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#141414",
+					"name": "Brand",
+					"slug": "primary"
+				},
+				{
+					"color": "#fff1d6",
+					"name": "Brand soft",
+					"slug": "primary-accent"
+				},
+				{
+					"color": "#ffc75a",
+					"name": "Second brand",
+					"slug": "primary-alt"
+				},
+				{
+					"color": "#141414",
+					"name": "Second brand deep",
+					"slug": "primary-alt-accent"
+				},
+				{
+					"color": "#141414",
+					"name": "Text",
+					"slug": "main"
+				},
+				{
+					"color": "#e9e4de",
+					"name": "Text soft",
+					"slug": "main-accent"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Background",
+					"slug": "base"
+				},
+				{
+					"color": "#5f5a55",
+					"name": "Muted text",
+					"slug": "secondary"
+				},
+				{
+					"color": "#faf8f5",
+					"name": "Tint",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#e9e4de",
+					"name": "Border",
+					"slug": "border-light"
+				},
+				{
+					"color": "#3a3633",
+					"name": "Border on dark",
+					"slug": "border-dark"
+				}
+			]
+		}
+	}
+}
