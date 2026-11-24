@@ -163,7 +163,7 @@ function anypress_register_block_styles() {
 
 	// Draws in as it scrolls into view: the image or section is uncovered from left to right. Pure CSS (scroll-driven
 	// animation), no script; browsers without it, and visitors who prefer less motion, see it finished.
-	$anypress_draw_in = '@media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){.is-style-draw-in{animation:anypress-draw-in linear both;animation-timeline:view();animation-range:entry 5% cover 40%}}}@keyframes anypress-draw-in{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}';
+	$anypress_draw_in = '@media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){.is-style-draw-in{animation:anypress-draw-in linear both;animation-timeline:view();animation-range:entry 0% entry 100%}}}@keyframes anypress-draw-in{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}';
 	foreach ( array( 'core/image', 'core/group' ) as $anypress_block ) {
 		register_block_style(
 			$anypress_block,

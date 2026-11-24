@@ -267,6 +267,20 @@ try {
     const { chromium } = require('playwright');
     mkdirSync(SHOTS, { recursive: true });
     const browser = await chromium.launch();
+    // Draws in: at the bottom of the page, where the scroll can go no further, the block is fully drawn.
+    const drawTab = await browser.newPage({ viewport: { width: 1400, height: 900 } });
+    await drawTab.goto(`${base}/?page_id=${styled.id}`, { waitUntil: 'networkidle' });
+    await drawTab.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
+    await drawTab.waitForTimeout(500);
+    const drawn = await drawTab.evaluate(() => {
+        const el = document.querySelector('.wp-block-group.is-style-draw-in');
+        const r = el.getBoundingClientRect();
+        return { clip: getComputedStyle(el).clipPath, timeline: CSS.supports('animation-timeline: view()'), top: Math.round(r.top) };
+    });
+    !drawn.timeline ? pass('draws in: this browser has no scroll timelines, so the block simply shows')
+        : /^inset\((0(px|%)\s?){1,4}\)$/.test(drawn.clip) ? pass('draws in: fully drawn at the bottom of the page')
+        : fail(`draws in: still clipped at the bottom of the page (${JSON.stringify(drawn)})`);
+    await drawTab.close();
     for (const [name, width] of [['desktop', 1400], ['phone', 390]]) {
         const tab = await browser.newPage({ viewport: { width, height: 900 } });
         await tab.goto(`${base}/?page_id=${page.id}`, { waitUntil: 'networkidle' });
