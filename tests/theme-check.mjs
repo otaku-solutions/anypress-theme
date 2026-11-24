@@ -262,40 +262,56 @@ for (const [name, id] of Object.entries(starterPages)) {
 const log = await php(`echo json_encode(file_exists('/tmp/debug.log') ? file_get_contents('/tmp/debug.log') : '');`);
 log.trim() ? fail(`debug.log:\n${log.slice(0, 2000)}`) : pass('debug.log is empty');
 
-// 4. Screenshots.
+// 4. Screenshots. Only starting the browser may be skipped (no Chromium here); once it runs, every problem fails.
+let browser = null;
 try {
     const { chromium } = require('playwright');
-    mkdirSync(SHOTS, { recursive: true });
-    const browser = await chromium.launch();
-    // Draws in: at the bottom of the page, where the scroll can go no further, the block is fully drawn.
-    const drawTab = await browser.newPage({ viewport: { width: 1400, height: 900 } });
-    await drawTab.goto(`${base}/?page_id=${styled.id}`, { waitUntil: 'networkidle' });
-    await drawTab.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
-    await drawTab.waitForTimeout(500);
-    const drawn = await drawTab.evaluate(() => {
-        const el = document.querySelector('.wp-block-group.is-style-draw-in');
-        const r = el.getBoundingClientRect();
-        return { clip: getComputedStyle(el).clipPath, timeline: CSS.supports('animation-timeline: view()'), top: Math.round(r.top) };
-    });
-    !drawn.timeline ? pass('draws in: this browser has no scroll timelines, so the block simply shows')
-        : /^inset\((0(px|%)\s?){1,4}\)$/.test(drawn.clip) ? pass('draws in: fully drawn at the bottom of the page')
-        : fail(`draws in: still clipped at the bottom of the page (${JSON.stringify(drawn)})`);
-    await drawTab.close();
-    for (const [name, width] of [['desktop', 1400], ['phone', 390]]) {
-        const tab = await browser.newPage({ viewport: { width, height: 900 } });
-        await tab.goto(`${base}/?page_id=${page.id}`, { waitUntil: 'networkidle' });
-        // The innermost elements that stick out past the right edge, to say which section is too wide.
-        const overflow = await tab.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1 ? null : [...document.querySelectorAll('body *')]
-            .filter((el) => el.getBoundingClientRect().right > window.innerWidth + 1 && ![...el.children].some((c) => c.getBoundingClientRect().right > window.innerWidth + 1))
-            .slice(0, 5).map((el) => `${el.closest('[class*="wp-block-group"][class*="alignfull"]')?.className.match(/is-style-[\w-]+/)?.[0] ?? ''} <${el.tagName.toLowerCase()}> "${el.textContent.trim().slice(0, 40)}"`));
-        overflow ? fail(`${name}: page scrolls sideways: ${overflow.join(' | ')}`) : pass(`${name}: no sideways scroll`);
-        await tab.screenshot({ path: resolve(SHOTS, `all-sections-${name}.png`), fullPage: true });
-        await tab.close();
-    }
-    await browser.close();
-    pass(`screenshots in ${SHOTS}`);
+    browser = await chromium.launch();
 } catch (e) {
     console.log(`  skip screenshots (${e.message.split('\n')[0]})`);
+}
+if (browser) {
+    try {
+        mkdirSync(SHOTS, { recursive: true });
+        // Draws in: at the bottom of the page, where the scroll can go no further, the block is fully drawn.
+        const drawTab = await browser.newPage({ viewport: { width: 1400, height: 900 } });
+        await drawTab.goto(`${base}/?page_id=${styled.id}`, { waitUntil: 'networkidle' });
+        await drawTab.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
+        await drawTab.waitForTimeout(500);
+        const drawn = await drawTab.evaluate(() => {
+            const el = document.querySelector('.wp-block-group.is-style-draw-in');
+            if (!el) return null;
+            const r = el.getBoundingClientRect();
+            return { clip: getComputedStyle(el).clipPath, timeline: CSS.supports('animation-timeline: view()'), top: Math.round(r.top) };
+        });
+        !drawn ? fail('draws in: no .wp-block-group.is-style-draw-in on the styled page')
+            : !drawn.timeline ? pass('draws in: this browser has no scroll timelines, so the block simply shows')
+            : /^inset\((0(px|%)\s?){1,4}\)$/.test(drawn.clip) ? pass('draws in: fully drawn at the bottom of the page')
+            : fail(`draws in: still clipped at the bottom of the page (${JSON.stringify(drawn)})`);
+        for (const [name, width] of [['desktop', 1400], ['phone', 390]]) {
+            const tab = await browser.newPage({ viewport: { width, height: 900 } });
+            await tab.goto(`${base}/?page_id=${page.id}`, { waitUntil: 'networkidle' });
+            // The innermost elements that stick out past the right edge, to say which section is too wide.
+            const overflow = await tab.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1 ? null : [...document.querySelectorAll('body *')]
+                .filter((el) => el.getBoundingClientRect().right > window.innerWidth + 1 && ![...el.children].some((c) => c.getBoundingClientRect().right > window.innerWidth + 1))
+                .slice(0, 5).map((el) => `${el.closest('[class*="wp-block-group"][class*="alignfull"]')?.className.match(/is-style-[\w-]+/)?.[0] ?? ''} <${el.tagName.toLowerCase()}> "${el.textContent.trim().slice(0, 40)}"`));
+            overflow ? fail(`${name}: page scrolls sideways: ${overflow.join(' | ')}`) : pass(`${name}: no sideways scroll`);
+            // Chromium can't capture a page this long in one go, so it's saved in parts: one tall screen at a time.
+            await tab.setViewportSize({ width, height: 4000 });
+            const height = await tab.evaluate(() => document.documentElement.scrollHeight);
+            for (let y = 0, n = 1; y < height; y += 4000, n++) {
+                await tab.evaluate((top) => window.scrollTo(0, top), y);
+                await tab.waitForTimeout(150);
+                await tab.screenshot({ path: resolve(SHOTS, `all-sections-${name}-${n}.png`) });
+            }
+        }
+        pass(`screenshots in ${SHOTS}`);
+    } catch (e) {
+        fail(`browser checks: ${e.message.split('\n')[0]}`);
+    } finally {
+        // Closing the browser closes every page it opened, even after an error.
+        await browser.close();
+    }
 }
 
 console.log(failures.length ? `\n${failures.length} problem(s)` : '\nAll checks passed');
